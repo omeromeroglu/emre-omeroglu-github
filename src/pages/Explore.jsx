@@ -13,8 +13,11 @@ const Explore = () => {
       <main>
         <Slider/>
         <p className="exploreCategoryHeading">Kategoriler</p>
-        <div className="exploreCategories">
-          <Link to="/category/rent">
+        <div className="exploreCategories" 
+            
+          >
+        
+          <Link to="/category/rent" >
             <img src={rentCategoryImage} alt="rent" className="exploreCategoryImg" />
             <p className="exploreCategoryName">Kiralık</p>
 
