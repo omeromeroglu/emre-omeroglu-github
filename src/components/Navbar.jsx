@@ -16,7 +16,7 @@ const Navbar = () => {
     }
   }
 
-  const { loggedIn,checkingStatus } = useAuthStatus()
+  const { loggedIn } = useAuthStatus()
 
 
   return (

@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "react-router-dom"
 
 
 const About = () => {
@@ -7,7 +6,7 @@ const About = () => {
     <>
       <img
         src="https://i.remax.com.tr/photos/employee/77/ac592057108c41e2b4123744a3dae4f1.webp"
-        alt="personal photo"
+        alt="personal"
         //make this image a square
         style={{
           width: "20rem",

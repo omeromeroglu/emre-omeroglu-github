@@ -18,7 +18,6 @@ const Listing = () => {
   const [shareLinkCopied, setShareLinkCopied] = useState(false)
 
   const params = useParams()
-  const auth = getAuth()
 
   useEffect(() => {
     const fetchListing = async () => {
